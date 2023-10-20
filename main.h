@@ -1,12 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdarg.h>
-#include <string.>
+#include <string.h>
 #include <unistd.h>
 
-int _printf(cont char *format, ...)
-int binary(int num);
-int octal(int num;)
+int _printf(const char *format, ...)
+	int binary(int num);
+	int octal(int num;)
 
 
 #endif
